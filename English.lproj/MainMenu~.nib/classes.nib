@@ -1,0 +1,183 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = MyTableView; LANGUAGE = ObjC; SUPERCLASS = NSTableView; }, 
+        {CLASS = MyWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }, 
+        {
+            ACTIONS = {
+                ccButtonClicked = id; 
+                ccNextClicked = id; 
+                ccNoChanged = id; 
+                ccValueChanged = id; 
+                endValueChanged = id; 
+                pcButtonClicked = id; 
+                pcValueChanged = id; 
+                pitchButtonClicked = id; 
+                pitchMatrixClicked = id; 
+                pitchNextClicked = id; 
+                smoothButtonClicked = id; 
+            }; 
+            CLASS = ParameterPanelController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                ccButton = id; 
+                ccNextButton = id; 
+                ccNoField = id; 
+                ccValueField = id; 
+                endValueField = id; 
+                pcButton = id; 
+                pcValueField = id; 
+                pitchButton = id; 
+                pitchMatrix = id; 
+                pitchNextButton = id; 
+                sequencerController = id; 
+                smoothButton = id; 
+                stepField = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = PatternView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {patternMatrix = id; sequencerController = id; }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {
+            ACTIONS = {
+                colourChanged = id; 
+                externalClockClicked = id; 
+                midiInputClicked = id; 
+                realtimeClicked = id; 
+            }; 
+            CLASS = PreferencesController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                externalClockButton = id; 
+                gridColour = id; 
+                midiInputButton = id; 
+                patternView = id; 
+                preferencesPanel = id; 
+                realtimeButton = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {cancelClicked = id; nameChanged = id; okClicked = id; }; 
+            CLASS = RenameController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                cancelButton = id; 
+                label = id; 
+                mainWindow = id; 
+                nameField = id; 
+                okButton = id; 
+                renameWindow = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                downClicked = id; 
+                newClicked = id; 
+                removeClicked = id; 
+                tableRowClicked = id; 
+                upClicked = id; 
+            }; 
+            CLASS = ScoreController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                downButton = id; 
+                newButton = id; 
+                removeButton = id; 
+                scoreWindow = id; 
+                sequencerController = id; 
+                tableView = id; 
+                upButton = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = Sequencer; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {sequencerController = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                autoRewindClicked = id; 
+                bankFieldChanged = id; 
+                channelMenuChanged = id; 
+                clean = id; 
+                deletePartClicked = id; 
+                deletePatternClicked = id; 
+                duplicateEditPattern = id; 
+                editModeChanged = id; 
+                editStepsClicked = id; 
+                loadPattern = id; 
+                matrixModeChanged = id; 
+                muteButtonClicked = id; 
+                newPartClicked = id; 
+                newPatternClicked = id; 
+                octaveClicked = id; 
+                open = id; 
+                partMenuChanged = id; 
+                patternLengthMenuChanged = id; 
+                patternMenuChanged = id; 
+                portMenuChanged = id; 
+                programFieldChanged = id; 
+                renamePartClicked = id; 
+                renamePatternClicked = id; 
+                save = id; 
+                saveAs = id; 
+                savePattern = id; 
+                songModeClicked = id; 
+                start = id; 
+                stepRecordClicked = id; 
+                stepsPerBeatMenuChanged = id; 
+                stopClicked = id; 
+                tempoFieldChanged = id; 
+                tempoStepperChanged = id; 
+                velocitySliderChanged = id; 
+                volumeSliderChanged = id; 
+            }; 
+            CLASS = SequencerController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                autoRewindButton = id; 
+                bankField = id; 
+                channelMenu = id; 
+                deletePartButton = id; 
+                deletePatternButton = id; 
+                mainWindow = id; 
+                matrixModeMenu = id; 
+                messageField = id; 
+                muteButton = id; 
+                newPartButton = id; 
+                newPatternButton = id; 
+                octaveMatrix = id; 
+                parameterPanelController = id; 
+                partsMenu = id; 
+                patternLengthMenu = id; 
+                patternView = id; 
+                patternsMenu = id; 
+                portsMenu = id; 
+                preferencesController = id; 
+                programField = id; 
+                renameController = RenameController; 
+                scoreController = id; 
+                songModeButton = id; 
+                startButton = id; 
+                stepRecordButton = id; 
+                stepsPerBeatMenu = id; 
+                stopButton = id; 
+                tempoField = id; 
+                tempoStepper = id; 
+                textField = id; 
+                velocitySlider = id; 
+                volumeSlider = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

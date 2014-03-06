@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E5F877007AD897B00FDB4C8 /* InputBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E5F876F07AD897B00FDB4C8 /* InputBuffer.h */; };
+		9E5F878607AD8C7300FDB4C8 /* InputBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F878507AD8C7300FDB4C8 /* InputBuffer.m */; };
+		9EA4A2BA08EAFEE200763C48 /* MyTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EA4A2B808EAFEE200763C48 /* MyTableView.h */; };
+		9EA4A2BB08EAFEE200763C48 /* MyTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA4A2B908EAFEE200763C48 /* MyTableView.m */; };
+		9EAFBC20079F1DE600397EF9 /* SequencerController.h in Headers */ = {isa = PBXBuildFile; fileRef = E94330E604E6B40B03A80064 /* SequencerController.h */; };
+		9EAFBC21079F1DE600397EF9 /* Sequencer.h in Headers */ = {isa = PBXBuildFile; fileRef = E9E5335204E83A2F03A80064 /* Sequencer.h */; };
+		9EAFBC22079F1DE600397EF9 /* MidiPort.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D1E2A104E98020036D1740 /* MidiPort.h */; };
+		9EAFBC23079F1DE600397EF9 /* Part.h in Headers */ = {isa = PBXBuildFile; fileRef = E989840004EC1B1D033DB0EB /* Part.h */; };
+		9EAFBC24079F1DE600397EF9 /* OutputChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = E989840404EC2154033DB0EB /* OutputChannel.h */; };
+		9EAFBC25079F1DE600397EF9 /* SeqPattern.h in Headers */ = {isa = PBXBuildFile; fileRef = E989840804EC2299033DB0EB /* SeqPattern.h */; };
+		9EAFBC26079F1DE600397EF9 /* Note.h in Headers */ = {isa = PBXBuildFile; fileRef = E989840C04EC25E8033DB0EB /* Note.h */; };
+		9EAFBC27079F1DE600397EF9 /* Timestamp.h in Headers */ = {isa = PBXBuildFile; fileRef = E989879504EC2B72033DB0EB /* Timestamp.h */; };
+		9EAFBC28079F1DE600397EF9 /* PatternMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = E93AC92E04F4109A03A80064 /* PatternMatrix.h */; };
+		9EAFBC29079F1DE600397EF9 /* PatternView.h in Headers */ = {isa = PBXBuildFile; fileRef = E9290EAE04F75F2003A80064 /* PatternView.h */; };
+		9EAFBC2A079F1DE600397EF9 /* RenameController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E9ED70905395FA600A80066 /* RenameController.h */; };
+		9EAFBC2B079F1DE600397EF9 /* ScoreController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E277324054DC2E500CA2530 /* ScoreController.h */; };
+		9EAFBC2C079F1DE600397EF9 /* Block.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E73932D0555863F00C5CB2A /* Block.h */; };
+		9EAFBC2D079F1DE600397EF9 /* debug.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E66106D05CD7BB600ECEB31 /* debug.h */; };
+		9EAFBC2E079F1DE600397EF9 /* ParameterPanelController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E6F955A06F0E0B700E28FD4 /* ParameterPanelController.h */; };
+		9EAFBC2F079F1DE600397EF9 /* ParameterChange.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E6F958206F0E82700E28FD4 /* ParameterChange.h */; };
+		9EAFBC30079F1DE600397EF9 /* PreferencesController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EEBDB62078746860075CB27 /* PreferencesController.h */; };
+		9EAFBC32079F1DE600397EF9 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		9EAFBC33079F1DE600397EF9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		9EAFBC34079F1DE600397EF9 /* PatternSequencer.icns in Resources */ = {isa = PBXBuildFile; fileRef = 9E0DC51305E7951300733CFE /* PatternSequencer.icns */; };
+		9EAFBC35079F1DE600397EF9 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9E52ACB905E7969500BD6377 /* Credits.rtf */; };
+		9EAFBC37079F1DE600397EF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		9EAFBC38079F1DE600397EF9 /* SequencerController.m in Sources */ = {isa = PBXBuildFile; fileRef = E94330E704E6B40B03A80064 /* SequencerController.m */; };
+		9EAFBC39079F1DE600397EF9 /* Sequencer.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E5335304E83A2F03A80064 /* Sequencer.m */; };
+		9EAFBC3A079F1DE600397EF9 /* MidiPort.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D1E2A204E98020036D1740 /* MidiPort.m */; };
+		9EAFBC3B079F1DE600397EF9 /* Part.m in Sources */ = {isa = PBXBuildFile; fileRef = E989840104EC1B1D033DB0EB /* Part.m */; };
+		9EAFBC3C079F1DE600397EF9 /* OutputChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = E989840504EC2154033DB0EB /* OutputChannel.m */; };
+		9EAFBC3D079F1DE600397EF9 /* SeqPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = E989840904EC2299033DB0EB /* SeqPattern.m */; };
+		9EAFBC3E079F1DE600397EF9 /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = E989840D04EC25E8033DB0EB /* Note.m */; };
+		9EAFBC3F079F1DE600397EF9 /* PatternMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = E93AC92F04F4109A03A80064 /* PatternMatrix.m */; };
+		9EAFBC40079F1DE600397EF9 /* PatternView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9290EAF04F75F2003A80064 /* PatternView.m */; };
+		9EAFBC41079F1DE600397EF9 /* RenameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9ED70A05395FA600A80066 /* RenameController.m */; };
+		9EAFBC42079F1DE600397EF9 /* ScoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E277325054DC2E500CA2530 /* ScoreController.m */; };
+		9EAFBC43079F1DE600397EF9 /* Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E73932E0555863F00C5CB2A /* Block.m */; };
+		9EAFBC44079F1DE600397EF9 /* debug.c in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA42E505CD7ED100604656 /* debug.c */; };
+		9EAFBC45079F1DE600397EF9 /* ParameterPanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F955B06F0E0B700E28FD4 /* ParameterPanelController.m */; };
+		9EAFBC46079F1DE600397EF9 /* ParameterChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F958306F0E82700E28FD4 /* ParameterChange.m */; };
+		9EAFBC47079F1DE600397EF9 /* PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EEBDB63078746860075CB27 /* PreferencesController.m */; };
+		9EAFBC49079F1DE600397EF9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		9EAFBC4A079F1DE600397EF9 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D1E2A504E98674036D1740 /* CoreMIDI.framework */; };
+		9EAFBC4B079F1DE600397EF9 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9BB7E5804E98FAA03DC10F7 /* CoreAudio.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		9E0DC51305E7951300733CFE /* PatternSequencer.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = PatternSequencer.icns; path = /Users/sebastian/develop/PatternSequencer/PatternSequencer.icns; sourceTree = "<absolute>"; };
+		9E277324054DC2E500CA2530 /* ScoreController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreController.h; sourceTree = "<group>"; };
+		9E277325054DC2E500CA2530 /* ScoreController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreController.m; sourceTree = "<group>"; };
+		9E52ACB905E7969500BD6377 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		9E5F876F07AD897B00FDB4C8 /* InputBuffer.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = InputBuffer.h; sourceTree = "<group>"; };
+		9E5F878507AD8C7300FDB4C8 /* InputBuffer.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = InputBuffer.m; sourceTree = "<group>"; };
+		9E66106D05CD7BB600ECEB31 /* debug.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
+		9E6F955A06F0E0B700E28FD4 /* ParameterPanelController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ParameterPanelController.h; sourceTree = "<group>"; };
+		9E6F955B06F0E0B700E28FD4 /* ParameterPanelController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ParameterPanelController.m; sourceTree = "<group>"; };
+		9E6F958206F0E82700E28FD4 /* ParameterChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParameterChange.h; sourceTree = "<group>"; };
+		9E6F958306F0E82700E28FD4 /* ParameterChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParameterChange.m; sourceTree = "<group>"; };
+		9E73932D0555863F00C5CB2A /* Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Block.h; sourceTree = "<group>"; };
+		9E73932E0555863F00C5CB2A /* Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Block.m; sourceTree = "<group>"; };
+		9E9ED70905395FA600A80066 /* RenameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenameController.h; sourceTree = "<group>"; };
+		9E9ED70A05395FA600A80066 /* RenameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RenameController.m; sourceTree = "<group>"; };
+		9EA4A2B808EAFEE200763C48 /* MyTableView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MyTableView.h; sourceTree = "<group>"; };
+		9EA4A2B908EAFEE200763C48 /* MyTableView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MyTableView.m; sourceTree = "<group>"; };
+		9EAFBC4D079F1DE600397EF9 /* PatternSequencer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatternSequencer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EEA42E505CD7ED100604656 /* debug.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = debug.c; sourceTree = "<group>"; };
+		9EEBDB62078746860075CB27 /* PreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PreferencesController.h; sourceTree = "<group>"; };
+		9EEBDB63078746860075CB27 /* PreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PreferencesController.m; sourceTree = "<group>"; };
+		E9290EAE04F75F2003A80064 /* PatternView.h */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.h; path = PatternView.h; sourceTree = "<group>"; };
+		E9290EAF04F75F2003A80064 /* PatternView.m */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.objc; path = PatternView.m; sourceTree = "<group>"; };
+		E93AC92E04F4109A03A80064 /* PatternMatrix.h */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.h; path = PatternMatrix.h; sourceTree = "<group>"; };
+		E93AC92F04F4109A03A80064 /* PatternMatrix.m */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.objc; path = PatternMatrix.m; sourceTree = "<group>"; };
+		E94330E604E6B40B03A80064 /* SequencerController.h */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.h; path = SequencerController.h; sourceTree = "<group>"; };
+		E94330E704E6B40B03A80064 /* SequencerController.m */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.objc; path = SequencerController.m; sourceTree = "<group>"; };
+		E989840004EC1B1D033DB0EB /* Part.h */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.h; path = Part.h; sourceTree = "<group>"; };
+		E989840104EC1B1D033DB0EB /* Part.m */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.objc; path = Part.m; sourceTree = "<group>"; };
+		E989840404EC2154033DB0EB /* OutputChannel.h */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.h; path = OutputChannel.h; sourceTree = "<group>"; };
+		E989840504EC2154033DB0EB /* OutputChannel.m */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.objc; path = OutputChannel.m; sourceTree = "<group>"; };
+		E989840804EC2299033DB0EB /* SeqPattern.h */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.h; path = SeqPattern.h; sourceTree = "<group>"; };
+		E989840904EC2299033DB0EB /* SeqPattern.m */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.objc; path = SeqPattern.m; sourceTree = "<group>"; };
+		E989840C04EC25E8033DB0EB /* Note.h */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		E989840D04EC25E8033DB0EB /* Note.m */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		E989879504EC2B72033DB0EB /* Timestamp.h */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.h; path = Timestamp.h; sourceTree = "<group>"; };
+		E9BB7E5804E98FAA03DC10F7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
+		E9D1E2A104E98020036D1740 /* MidiPort.h */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.h; path = MidiPort.h; sourceTree = "<group>"; };
+		E9D1E2A204E98020036D1740 /* MidiPort.m */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.objc; path = MidiPort.m; sourceTree = "<group>"; };
+		E9D1E2A504E98674036D1740 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = /System/Library/Frameworks/CoreMIDI.framework; sourceTree = "<absolute>"; };
+		E9E5335204E83A2F03A80064 /* Sequencer.h */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.h; path = Sequencer.h; sourceTree = "<group>"; };
+		E9E5335304E83A2F03A80064 /* Sequencer.m */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.objc; path = Sequencer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EAFBC48079F1DE600397EF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EAFBC49079F1DE600397EF9 /* Cocoa.framework in Frameworks */,
+				9EAFBC4A079F1DE600397EF9 /* CoreMIDI.framework in Frameworks */,
+				9EAFBC4B079F1DE600397EF9 /* CoreAudio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9E6F958206F0E82700E28FD4 /* ParameterChange.h */,
+				9E6F958306F0E82700E28FD4 /* ParameterChange.m */,
+				9E277324054DC2E500CA2530 /* ScoreController.h */,
+				9E277325054DC2E500CA2530 /* ScoreController.m */,
+				E94330E604E6B40B03A80064 /* SequencerController.h */,
+				E94330E704E6B40B03A80064 /* SequencerController.m */,
+				E9E5335204E83A2F03A80064 /* Sequencer.h */,
+				E9E5335304E83A2F03A80064 /* Sequencer.m */,
+				E9D1E2A104E98020036D1740 /* MidiPort.h */,
+				E9D1E2A204E98020036D1740 /* MidiPort.m */,
+				E989840004EC1B1D033DB0EB /* Part.h */,
+				E989840104EC1B1D033DB0EB /* Part.m */,
+				E989840404EC2154033DB0EB /* OutputChannel.h */,
+				E989840504EC2154033DB0EB /* OutputChannel.m */,
+				E989840804EC2299033DB0EB /* SeqPattern.h */,
+				E989840904EC2299033DB0EB /* SeqPattern.m */,
+				9E5F876F07AD897B00FDB4C8 /* InputBuffer.h */,
+				9E5F878507AD8C7300FDB4C8 /* InputBuffer.m */,
+				E989840C04EC25E8033DB0EB /* Note.h */,
+				E989840D04EC25E8033DB0EB /* Note.m */,
+				E93AC92E04F4109A03A80064 /* PatternMatrix.h */,
+				E93AC92F04F4109A03A80064 /* PatternMatrix.m */,
+				E9290EAE04F75F2003A80064 /* PatternView.h */,
+				E9290EAF04F75F2003A80064 /* PatternView.m */,
+				9E9ED70905395FA600A80066 /* RenameController.h */,
+				9E9ED70A05395FA600A80066 /* RenameController.m */,
+				9E73932D0555863F00C5CB2A /* Block.h */,
+				9E73932E0555863F00C5CB2A /* Block.m */,
+				9E6F955A06F0E0B700E28FD4 /* ParameterPanelController.h */,
+				9E6F955B06F0E0B700E28FD4 /* ParameterPanelController.m */,
+				9EEBDB62078746860075CB27 /* PreferencesController.h */,
+				9EEBDB63078746860075CB27 /* PreferencesController.m */,
+				9EA4A2B808EAFEE200763C48 /* MyTableView.h */,
+				9EA4A2B908EAFEE200763C48 /* MyTableView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				E9D1E2A504E98674036D1740 /* CoreMIDI.framework */,
+				E9BB7E5804E98FAA03DC10F7 /* CoreAudio.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EAFBC4D079F1DE600397EF9 /* PatternSequencer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* PatternSequencer */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = PatternSequencer;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				E989879504EC2B72033DB0EB /* Timestamp.h */,
+				9E66106D05CD7BB600ECEB31 /* debug.h */,
+				9EEA42E505CD7ED100604656 /* debug.c */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				9E0DC51305E7951300733CFE /* PatternSequencer.icns */,
+				9E52ACB905E7969500BD6377 /* Credits.rtf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9EAFBC1F079F1DE600397EF9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EAFBC20079F1DE600397EF9 /* SequencerController.h in Headers */,
+				9EAFBC21079F1DE600397EF9 /* Sequencer.h in Headers */,
+				9EAFBC22079F1DE600397EF9 /* MidiPort.h in Headers */,
+				9EAFBC23079F1DE600397EF9 /* Part.h in Headers */,
+				9EAFBC24079F1DE600397EF9 /* OutputChannel.h in Headers */,
+				9EAFBC25079F1DE600397EF9 /* SeqPattern.h in Headers */,
+				9EAFBC26079F1DE600397EF9 /* Note.h in Headers */,
+				9EAFBC27079F1DE600397EF9 /* Timestamp.h in Headers */,
+				9EAFBC28079F1DE600397EF9 /* PatternMatrix.h in Headers */,
+				9EAFBC29079F1DE600397EF9 /* PatternView.h in Headers */,
+				9EAFBC2A079F1DE600397EF9 /* RenameController.h in Headers */,
+				9EAFBC2B079F1DE600397EF9 /* ScoreController.h in Headers */,
+				9EAFBC2C079F1DE600397EF9 /* Block.h in Headers */,
+				9EAFBC2D079F1DE600397EF9 /* debug.h in Headers */,
+				9EAFBC2E079F1DE600397EF9 /* ParameterPanelController.h in Headers */,
+				9EAFBC2F079F1DE600397EF9 /* ParameterChange.h in Headers */,
+				9EAFBC30079F1DE600397EF9 /* PreferencesController.h in Headers */,
+				9E5F877007AD897B00FDB4C8 /* InputBuffer.h in Headers */,
+				9EA4A2BA08EAFEE200763C48 /* MyTableView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9EAFBC1E079F1DE600397EF9 /* PatternSequencer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E1EB2D5094A3C9500302733 /* Build configuration list for PBXNativeTarget "PatternSequencer" */;
+			buildPhases = (
+				9EAFBC1F079F1DE600397EF9 /* Headers */,
+				9EAFBC31079F1DE600397EF9 /* Resources */,
+				9EAFBC36079F1DE600397EF9 /* Sources */,
+				9EAFBC48079F1DE600397EF9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PatternSequencer;
+			productInstallPath = "$(HOME)/Applications";
+			productName = PatternSequencer;
+			productReference = 9EAFBC4D079F1DE600397EF9 /* PatternSequencer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 9E1EB2D9094A3C9500302733 /* Build configuration list for PBXProject "PatternSequencer" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* PatternSequencer */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EAFBC1E079F1DE600397EF9 /* PatternSequencer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EAFBC31079F1DE600397EF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EAFBC32079F1DE600397EF9 /* MainMenu.nib in Resources */,
+				9EAFBC33079F1DE600397EF9 /* InfoPlist.strings in Resources */,
+				9EAFBC34079F1DE600397EF9 /* PatternSequencer.icns in Resources */,
+				9EAFBC35079F1DE600397EF9 /* Credits.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EAFBC36079F1DE600397EF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EAFBC37079F1DE600397EF9 /* main.m in Sources */,
+				9EAFBC38079F1DE600397EF9 /* SequencerController.m in Sources */,
+				9EAFBC39079F1DE600397EF9 /* Sequencer.m in Sources */,
+				9EAFBC3A079F1DE600397EF9 /* MidiPort.m in Sources */,
+				9EAFBC3B079F1DE600397EF9 /* Part.m in Sources */,
+				9EAFBC3C079F1DE600397EF9 /* OutputChannel.m in Sources */,
+				9EAFBC3D079F1DE600397EF9 /* SeqPattern.m in Sources */,
+				9EAFBC3E079F1DE600397EF9 /* Note.m in Sources */,
+				9EAFBC3F079F1DE600397EF9 /* PatternMatrix.m in Sources */,
+				9EAFBC40079F1DE600397EF9 /* PatternView.m in Sources */,
+				9EAFBC41079F1DE600397EF9 /* RenameController.m in Sources */,
+				9EAFBC42079F1DE600397EF9 /* ScoreController.m in Sources */,
+				9EAFBC43079F1DE600397EF9 /* Block.m in Sources */,
+				9EAFBC44079F1DE600397EF9 /* debug.c in Sources */,
+				9EAFBC45079F1DE600397EF9 /* ParameterPanelController.m in Sources */,
+				9EAFBC46079F1DE600397EF9 /* ParameterChange.m in Sources */,
+				9EAFBC47079F1DE600397EF9 /* PreferencesController.m in Sources */,
+				9E5F878607AD8C7300FDB4C8 /* InputBuffer.m in Sources */,
+				9EA4A2BB08EAFEE200763C48 /* MyTableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E1EB2D6094A3C9500302733 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-PatternSequencer__Upgraded_.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = PatternSequencer;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		9E1EB2D7094A3C9500302733 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-PatternSequencer__Upgraded_.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = PatternSequencer;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		9E1EB2D8094A3C9500302733 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-PatternSequencer__Upgraded_.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = PatternSequencer;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		9E1EB2DA094A3C9500302733 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		9E1EB2DB094A3C9500302733 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		9E1EB2DC094A3C9500302733 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E1EB2D5094A3C9500302733 /* Build configuration list for PBXNativeTarget "PatternSequencer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1EB2D6094A3C9500302733 /* Development */,
+				9E1EB2D7094A3C9500302733 /* Deployment */,
+				9E1EB2D8094A3C9500302733 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		9E1EB2D9094A3C9500302733 /* Build configuration list for PBXProject "PatternSequencer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1EB2DA094A3C9500302733 /* Development */,
+				9E1EB2DB094A3C9500302733 /* Deployment */,
+				9E1EB2DC094A3C9500302733 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
